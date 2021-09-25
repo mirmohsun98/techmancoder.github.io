@@ -159,7 +159,14 @@ h3 {
     color: white;
     font-family: 'Stick No Bills', sans-serif;
 }
-
+.h3travel{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+    color: white;
+    font-family: 'Stick No Bills', sans-serif;
+    padding-top: 200px;
+}
 p {
     color: white;
     width: 500px;
@@ -234,11 +241,11 @@ p {
     font-size: 20px;
 }
 
-#travel {
+/*#travel {
     background-color: #303134;
     height: 100vh;
 }
-
+*/
 .travel-title {
     color: #fff;
     font-family: 'Stick No Bills', sans-serif;
@@ -310,6 +317,7 @@ span {
 
 .fab {
     color: white;
+    padding: 10px;
 }
 
 .ins {
@@ -347,7 +355,7 @@ span {
     display: block;
 }
 
-.container {
+.container1 {
     display: grid;
     grid-template-columns: 300px 300px 300px;
     grid-template-rows: 400px 400px 400px 400px;
@@ -364,3 +372,70 @@ span {
     width: 300px;
     height: 400px;
 }
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #0d1117;
+  color: white;
+  font-family: "Roboto Mono";
+  overflow-x: hidden;
+  height: 200vh;
+}
+section {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.item-wrapper {
+  background-color: red;
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+.item {
+  background-color: #161b22;
+  padding: 30px;
+  border-radius: 10px;
+  width: 500px;
+  margin-left: 100px;
+  position: relative;
+  transform: translateY(-50%);
+}
+.item:last-of-type {
+  margin-right: 100px;
+}
+.item h1 {
+  margin-bottom: 20px;
+}
+.item p {
+  margin-bottom: 30px;
+  font-size: 18px;
+
+  white-space: normal;
+}
+.item a {
+  text-decoration: none;
+  color: royalBlue;
+  text-transform: uppercase;
+  background-color: #2f3948;
+  padding: 15px 20px;
+  border-radius: 4px;
+  display: inline-block;
+}
+/* .count {
+	font-size: 100px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transform: translate(-50%, -60%);
+	z-index: -1;
+	opacity: 0.02;
+} */
+
