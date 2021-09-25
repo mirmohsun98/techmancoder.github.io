@@ -89,6 +89,7 @@ html {
 h2 {
     color: #f0e549;
     margin-bottom: 7px;
+    font-family: 'Balsamiq Sans', cursive;
 }
 
 
@@ -151,7 +152,12 @@ h2 {
     max-width: 700px;
     margin-left: 150px;
 }
-
+#h3 {
+    padding-top: 200px;
+}
+.container1 img{
+    border-radius: 10px;
+}
 h3 {
     font-size: 50px;
     font-weight: 800;
@@ -176,6 +182,12 @@ p {
     text-align: center;
 }
 
+.pc p{
+    width: 100%;
+    font-family: poppins, sans-serif;
+    text-align: end;
+}
+
 .progress {
     background-color: rgba(46, 46, 46, .5);
     width: 500px;
@@ -187,7 +199,7 @@ p {
 
 .progress-text span {
     font-weight: 700;
-    font-family: 'Poppins', sans-serif;
+    font-family:'Poppins', sans-serif;
 }
 
 .progress:nth-child(2)::after {
@@ -257,8 +269,12 @@ p {
     margin-top: 100px;
 }
 
+.pc span{
+    float: left;
+}
+
 hr {
-    width: 50%;
+    width: 100%;
     margin: auto;
     opacity: 0.3;
     margin-top: 5px;
@@ -351,8 +367,30 @@ span {
 
 }
 
+.hiddentechdiv {
+    width: 60%;
+    margin-left: 20%;
+    background: #494b50;
+    display: none;
+    z-index: 999;
+    position: absolute;
+    top: 15%;
+    border-radius: 20px;
+    height: 80vh;
+
+}
+
 .hiddentraveldiv:target {
     display: block;
+}
+.hiddentechdiv:target {
+    display: block;
+}
+
+.hiddentech22{
+    justify-items: stretch;
+    align-items: stretch;
+    padding: 50px;
 }
 
 .container1 {
