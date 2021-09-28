@@ -594,3 +594,82 @@ section {
     display: none;
 }
     }
+
+
+
+
+    @media screen and (max-width:414px){
+        .hiddentechdiv {
+            width: 98%;
+            margin-left: 1%;
+        }
+        .pc span {
+            font-size: 15px;
+        }
+        .pc p {
+            font-size: 8px;
+        }
+        .hiddentech22{
+            padding: 30px;
+        }
+        .home-img::before{
+            transform: rotate(-100deg);
+            margin-left: -98px;
+            margin-top: -59px;
+            padding: 0px;
+            width: 280px;
+    
+        }
+        .miri-img {
+            width: 220px;
+        }
+        .home-img{
+            position: absolute;
+            margin-top: 400px;
+            margin-left: 76px;
+        }
+    
+    .main-page{
+        height: 140vh;
+    }
+    .mainpage-2{
+        justify-content: normal;
+    }
+    
+    .texts h1{
+        font-size: 31px;
+    }
+    .texts a{
+        font-size: 20px;
+    }
+    .section-4 {
+        height: 64vh;
+    }
+    .progress{
+        width: 350px;
+    }
+    .skills-p{
+        width: 200px;
+    }
+    .progress-text span{
+        font-size: 15px;
+    }
+    #nav ul {
+        display: none;
+    }
+    #nav {
+        width: auto;
+    }
+    .texts p{
+        width: auto;
+    }
+    .description{
+        width: auto;
+    }
+    .container {
+        display: none;
+    }
+    .travel {
+        display: none;
+    }
+        }
