@@ -5,6 +5,7 @@
         var e;
         e = "undefined" != typeof window ? window : "undefined" != typeof global ? global : "undefined" != typeof self ? self : this, e.HorizontalScroll = t()
     }
+    
 }(function () {
     return function t(e, n, i) {
         function r(o, a) {
@@ -713,3 +714,4 @@
         }]
     }, {}, [13])(13)
 });
+

@@ -17,6 +17,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
     <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
 
     <title>Coder-Miri</title>
 
@@ -24,7 +27,7 @@
 
 <body>
 
-    <div id="nav">
+    <!-- <div id="nav">
 
         <h1>Coder Miri</h1>
 
@@ -36,7 +39,34 @@
             <li><a href="#contact">Contact</a></li>
         </ul>
     </div>
-    </div>
+    </div> -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top p-0">
+        <div class="container-fluid">
+             <a class="navbar-brand" href="#">Coder Miri</a>
+             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav   mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#travel">Travel</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+            </div>
+        </div>
+    </nav>
+
 
 
     <div id="home" class="main-page">
@@ -52,67 +82,67 @@
                 <div class="image-card">
                     <img src="travelimg.jpg" alt="">
                     <div class="image-overlay">
-                      <div class="image-overlay__title">
-                        Lerik-Bibioni waterfall
-                      </div>
+                        <div class="image-overlay__title">
+                            Lerik-Bibioni waterfall
+                        </div>
                     </div>
-                  </div>
-                  <div class="image-card">
+                </div>
+                <div class="image-card">
                     <img src="1.jpg" alt="">
                     <div class="image-overlay">
-                      <div class="image-overlay__title">
-                        Qebele-Tufan mountain
-                      </div>
+                        <div class="image-overlay__title">
+                            Qebele-Tufan mountain
+                        </div>
                     </div>
-                  </div>
-                  <div class="image-card">
+                </div>
+                <div class="image-card">
                     <img src="2.jpg" alt="">
                     <div class="image-overlay">
-                      <div class="image-overlay__title">
-                        Qebele-Tufan mountain
-                      </div>
+                        <div class="image-overlay__title">
+                            Qebele-Tufan mountain
+                        </div>
                     </div>
-                  </div>
-                  <div class="image-card">
+                </div>
+                <div class="image-card">
                     <img src="3.jpg" alt="">
                     <div class="image-overlay">
-                      <div class="image-overlay__title">
-                        Super Car
-                      </div>
+                        <div class="image-overlay__title">
+                            Super Car
+                        </div>
                     </div>
-                  </div>
-                  <div class="image-card">
+                </div>
+                <div class="image-card">
                     <img src="4.jpg" alt="">
                     <div class="image-overlay">
-                      <div class="image-overlay__title">
-                        Goygol- Goygol lake
-                      </div>
+                        <div class="image-overlay__title">
+                            Goygol- Goygol lake
+                        </div>
                     </div>
-                  </div>
-                  <div class="image-card">
+                </div>
+                <div class="image-card">
                     <img src="5.jpg" alt="">
                     <div class="image-overlay">
-                      <div class="image-overlay__title">
-                        Goygol- Goygol lake
-                      </div>
+                        <div class="image-overlay__title">
+                            Goygol- Goygol lake
+                        </div>
                     </div>
-                  </div>
-                  <div class="image-card">
+                </div>
+                <div class="image-card">
                     <img src="6.jpg" alt="">
                     <div class="image-overlay">
-                      <div class="image-overlay__title">
-                        Qusar-Laza
-                      </div>
+                        <div class="image-overlay__title">
+                            Qusar-Laza
+                        </div>
                     </div>
-                  </div>
-                  <div class="image-card">
+                </div>
+                <div class="image-card">
                     <img src="7.jpg" alt="">
                     <div class="image-overlay">
-                      <div class="image-overlay__title">
-                        Qusar-Laza
-                      </div>
+                        <div class="image-overlay__title">
+                            Qusar-Laza
+                        </div>
                     </div>
-                  </div>
+                </div>
             </div>
 
         </div>
@@ -125,16 +155,26 @@
             <div class="hiddentech22">
 
                 <div class="pc">
-                    <p><span>Motherboard-</span> Gigabyte B550M Aorus pro</p> <hr><br>
-                    <p><span>Cpu-</span> AMD Ryzen 5 3600</p><hr><br>
-                    <p><span>Liquid CPU cooler-</span>Cooler Master MasterLiquid ML240L RGB V2</p><hr><br>
-                    <p><span>Ram-</span> G Skill DDR4 3600mhz</p><hr><br>
-                    <p><span>SSD-</span>Samsung Evo 500GB (m2)</p><hr><br>
-                    <p><span>Video card-</span>XFX Radeon 5500XT 8GB</p><hr><br>
-                    <p><span>Power Supply-</span>Thermaltake Smart Rgb 700W</p><hr><br>
-                    <p><span>HDD-</span> (1x) 2TB 7200rpm Baracuda (1x)500GB 5400rpm</p><hr><br>
-                    <p><span>Case-</span>Aigo F20</p><hr><br>
-                    <p><span>Monitor-</span>Samsung CF390 24inc cuverd FULL HD</p><hr><br>
+                    <p><span>Motherboard-</span> Gigabyte B550M Aorus pro</p>
+                    <hr><br>
+                    <p><span>Cpu-</span> AMD Ryzen 5 3600</p>
+                    <hr><br>
+                    <p><span>Liquid CPU cooler-</span>Cooler Master MasterLiquid ML240L RGB V2</p>
+                    <hr><br>
+                    <p><span>Ram-</span> G Skill DDR4 3600mhz</p>
+                    <hr><br>
+                    <p><span>SSD-</span>Samsung Evo 500GB (m2)</p>
+                    <hr><br>
+                    <p><span>Video card-</span>XFX Radeon 5500XT 8GB</p>
+                    <hr><br>
+                    <p><span>Power Supply-</span>Thermaltake Smart Rgb 700W</p>
+                    <hr><br>
+                    <p><span>HDD-</span> (1x) 2TB 7200rpm Baracuda (1x)500GB 5400rpm</p>
+                    <hr><br>
+                    <p><span>Case-</span>Aigo F20</p>
+                    <hr><br>
+                    <p><span>Monitor-</span>Samsung CF390 24inc cuverd FULL HD</p>
+                    <hr><br>
                 </div>
 
             </div>
@@ -163,7 +203,8 @@
     <div class="section-2">
         <div id="skills" class="background">
             <h3>Programming skills</h3>
-            <p class="skills-p">I just started this path. I try to improve myself. Thank you to everyone who supported me.</p>
+            <p class="skills-p">I just started this path. I try to improve myself. Thank you to everyone who supported
+                me.</p>
             <div class="progress-bar">
                 <div class="progress-text">
                     <span>HTML</span>
@@ -189,49 +230,15 @@
 
     </div>
     <!-- SECTION 3 -->
+    <div id="travel">
+        <h3 class="h3travel">Coming Soon</h3>
+    
+    <div class="container">
+</div>
 
-    <!-- <div id="travel">
-        <div class="travel-1"><br><br><br>
-            <div>
-                <h4 class="travel-title">Timeline</h4>
-            </div>
-            <div class="spans">
-                <ul>
-                    <span class="span-date">15 July 2019</span>
-                    <span class="span-location">Georgia, Tbilisi</span>
-                </ul>
-            </div>
-            <hr /> <br><br><br>
-            <div>
-                <ul class="spans">
-                    <span class="span-date">31 January 2021</span>
-                    <span class="span-location">Azerbaijan, Qusar Laza</span>
-                </ul>
-            </div>
-            <hr /><br><br><br>
-            <div class="spans">
-                <ul>
-                    <span class="span-date">21 February 2021</span>
-                    <span class="span-location">Azerbaijan, Samaxi Bugrut</span>
-                </ul>
-            </div>
-            <hr /><br><br><br>
-            <div class="spans">
-                <ul>
-                    <span class="span-date">07 March 2021</span>
-                    <span class="span-location">Azerbaijan, Lankaran Xanbulan</span>
-                </ul>
-            </div>
-            <hr /><br><br><br>
-            <div class="spans">
-                <ul>
-                    <span class="span-date">25 April 2021</span>
-                    <span class="span-location">Azerbaijan, Ismayilli Garanohur lake</span>
-                </ul>
-            </div>
-            <hr /><br><br><br>
-        </div>
-    </div> -->
+</div>
+
+<!--
     <div id="travel">
         <h3 class="h3travel">Travel</h3>
     </div>
@@ -299,7 +306,7 @@
                     <p>Azerbaijan, Isymailli fit mountain</p>
                 </div>
             </div>
-        </div>
+        </div>-->
     </section>
 
     <!-- SECTION 4 -->
@@ -325,7 +332,7 @@
 
     <script src="index.js"></script>
 
-    <script src="scroll.js"></script>
+    <!-- <script src="scroll.js"></script> -->
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
@@ -370,6 +377,12 @@
             $(hidden).css("display", "block");
 
         })
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+        integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous">
     </script>
 </body>
 
