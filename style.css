@@ -629,9 +629,11 @@ section {
     display: table;
 }
 .background{
-    align-items: baseline;
+    align-items: stretch;
 }
-
+.description{
+    display: contents;
+}
 }
 
 
