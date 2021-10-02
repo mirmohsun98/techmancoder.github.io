@@ -99,7 +99,7 @@ font-size: 20px;
 .mainpage-2 {
     z-index: -999;
     padding-top: 80px;
-    display: flex;
+    display: inline-flex;
     justify-content: space-around;
 }
 
@@ -627,6 +627,9 @@ section {
 }
 .container1{
     display: table;
+}
+.background{
+    align-items: baseline;
 }
 
 }
