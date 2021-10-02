@@ -99,7 +99,7 @@ font-size: 20px;
 .mainpage-2 {
     z-index: -999;
     padding-top: 80px;
-    display: inline-flex;
+    display: flex;
     justify-content: space-around;
 }
 
@@ -573,12 +573,13 @@ section {
 
     .mainpage-2 {
         flex-direction: column-reverse;
+        display: inline-flex;
     }
 
     .miri-img {
         transform: rotate(0deg);
         transform: translateX(50%);
-        width: 300px;
+        width: 200px;
     }
 
     .home-img::before {
@@ -634,9 +635,23 @@ section {
 .description{
     display: contents;
 }
+.p-0 {
+    padding: 0!important;
 }
+.fixed-top {
+    position: absolute!important;
 
-
+}
+p{
+    display: contents;
+}
+.section-4{
+    height: 71vh;
+}
+span{
+    font-size: 20px;
+}
+}
 
 
 
