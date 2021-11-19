@@ -572,7 +572,7 @@ section {
     }
 
     .image-overlay__title {
-        line-height: 471px;
+        line-height: 457px;
     }
     .mainpage-2 {
         flex-direction: column-reverse;
@@ -605,8 +605,8 @@ section {
         font-size: 18px;
     }
 
-    .container {
-        display: none;
+    .btn-cv {
+        margin-top: 80px;
     }
 
     .travel {
@@ -615,7 +615,7 @@ section {
     .hiddentechdiv {
         width: 98%;
         margin-left: 1%;
-        height: 100vh;
+        height: 125vh;
     }
     .pc span {
         font-size: 15px;
@@ -661,6 +661,13 @@ span{
     margin-left: 0px;
     padding: 10px;
 }
+#travel{
+    height: 140vh;
+}
+.img1{
+    width: 300px!important;
+    display: block;
+}
 }
 
 
@@ -682,175 +689,32 @@ span{
 
 
 
-
-
-
-
-
-
-
-
-/* @media screen and (max-width:1366px) {
-    .section-4{
-        height: 52vh;
-    }
-}
-
-
-
-@media screen and (max-width:360px){
-    .hiddentechdiv {
-        width: 98%;
-        margin-left: 1%;
-    }
-    .pc span {
-        font-size: 15px;
-    }
-    .pc p {
-        font-size: 8px;
-    }
-    .hiddentech22{
-        padding: 30px;
-    }
-    .home-img::before{
-        transform: rotate(-100deg);
-        margin-left: -98px;
-        margin-top: -59px;
-        padding: 0px;
-        width: 280px;
-
-    }
-    .miri-img {
-        width: 220px;
-    }
-    .home-img{
-        position: absolute;
-        margin-top: 400px;
-        margin-left: 76px;
-    }
-
-.main-page{
-    height: 140vh;
-}
-.mainpage-2{
-    justify-content: normal;
-}
-
-.texts h1{
-    font-size: 31px;
-}
-.texts a{
-    font-size: 20px;
-}
-.section-4 {
-    height: 64vh;
-}
-.progress{
-    width: 350px;
-}
-.skills-p{
-    width: 200px;
-}
-.progress-text span{
-    font-size: 15px;
-}
-#nav ul {
-    display: none;
-}
-#nav {
-    width: auto;
-}
-.texts p{
-    width: auto;
-}
-.description{
-    width: auto;
-}
-.container {
-    display: none;
-}
-.travel {
-    display: none;
-}
-    }
-
-
-
-
-    @media screen and (max-width:414px){
-        .hiddentechdiv {
-            width: 98%;
-            margin-left: 1%;
+        .img1{
+            width: 400px;
+            height: auto;
+            border-radius: 5px;
         }
-        .pc span {
-            font-size: 15px;
-        }
-        .pc p {
-            font-size: 8px;
-        }
-        .hiddentech22{
-            padding: 30px;
-        }
-        .home-img::before{
-            transform: rotate(-100deg);
-            margin-left: -98px;
-            margin-top: -59px;
-            padding: 0px;
-            width: 280px;
-    
-        }
-        .miri-img {
-            width: 220px;
-        }
-        .home-img{
-            position: absolute;
-            margin-top: 240px;
-            margin-left: 76px;
-        }
-    
-    .mainpage-2{
-        justify-content: normal;
-    }
-    
-    .texts h1{
-        font-size: 31px;
-    }
-    .texts a{
-        font-size: 20px;
-    }
-    .section-4 {
-        height: 64vh;
-    }
-    .progress{
-        width: 350px;
-    }
-    .skills-p{
-        width: 200px;
-    }
-    .progress-text span{
-        font-size: 15px;
-    }
-    #nav ul {
-        display: none;
-    }
-    #nav {
-        width: auto;
-    }
-    .texts p{
-        width: auto;
-    }
-    .description{
-        width: auto;
-    }
-    .container {
-        overflow-x: hidden;
-    }
-    .travel {
-       overflow-x: hidden;
-    }
-    .hiddentechdiv{
-        height: 70vh;
-    }
-        } */
+     .btn-cv{
+         width: 200px;
+         height: 50px;
+         background-color: darkcyan;
+         color: black;
+         font-family: 'Poppins', sans-serif;
+         font-size: 17px;
+         border-radius: 5px;
+         border-style: none;
+     }
 
-        
+.btn-cv:hover{
+    background-color: white;
+}
+.cv-p{
+    float: right;
+    text-align: justify;
+    margin-right: 250px;
+    font-family: cursive;
+}
+.cv{
+    text-align: center;
+    margin-top: -50px;
+}
