@@ -203,6 +203,7 @@ h3 {
     margin-bottom: 55px;
     color: white;
     font-family: 'Stick No Bills', sans-serif;
+    text-align: center;
 }
 
 .h3travel {
@@ -591,6 +592,7 @@ section {
 
     .texts {
         align-self: center;
+        text-align: center;
     }
 
     .texts h1 {
@@ -637,6 +639,7 @@ section {
 }
 .background{
     align-items: stretch;
+    text-align: center;
 }
 .description{
     display: contents;
@@ -712,7 +715,6 @@ span{
     float: right;
     text-align: justify;
     margin-right: 250px;
-    font-family: cursive;
 }
 .cv{
     text-align: center;
