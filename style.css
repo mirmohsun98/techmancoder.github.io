@@ -893,17 +893,21 @@ h1.texts-blog {
             display: grid;
         }
         .blog-container__element{
-            width: 50%;
+            width: 100%;
         }
         .figure1{
             display: grid;
         }
         .blog-container {
-            width: max-content;
             display: block;
         }
 
         h1.texts-blog {
             max-width: max-content;
+        }
+
+        .blog-element-imagewrapper {
+            width: 100%;
+            height: 170px;
         }
     }
