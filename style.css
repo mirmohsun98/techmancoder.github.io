@@ -918,6 +918,9 @@ h1.texts-blog {
             height: 170px;
         }
         p {
-            display: block;
+            display: contents;
+        }
+        .myblog3-p{
+            margin-top: 5%;
         }
     }
